@@ -1,6 +1,6 @@
 {
   "name": "jit-grunt",
-  "version": "0.9.1",
+  "version": "0.9.1-wiwo.1-SNAPSHOT",
   "description": "JIT plugin loader for Grunt.",
   "keywords": [
     "grunt",
@@ -25,12 +25,15 @@
   "main": "jit-grunt",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shootaroo/jit-grunt.git"
+    "url": "git://github.com/widgetworks/jit-grunt.git"
   },
   "scripts": {
     "test": "grunt",
     "precommit": "npm test",
     "prepush": "npm test"
+  },
+  "disabledDependencies": {
+    "reverse-require": "^1.0.0"
   },
   "devDependencies": {
     "grunt": "~0.4.0",

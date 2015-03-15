@@ -1,9 +1,9 @@
 'use strict';
-var jitGrunt = require('./lib/jit-grunt');
+var jitGruntReverse = require('./lib/jit-grunt-reverse');
 var path = require('path');
 
 module.exports = function (grunt, mappings) {
-  var jit = jitGrunt(grunt, mappings);
+  var jit = jitGruntReverse(grunt, mappings);
   return function (options) {
     options = options || {};
 
