@@ -1,6 +1,6 @@
 {
   "name": "@wiwo/jit-grunt",
-  "version": "0.9.1-wiwo.1",
+  "version": "0.9.1-wiwo.2",
   "description": "JIT plugin loader for Grunt.",
   "keywords": [
     "grunt",
