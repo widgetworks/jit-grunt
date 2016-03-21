@@ -1,4 +1,7 @@
 'use strict';
+var reverseRequire = require('reverse-require');
+reverseRequire.moduleRoot = reverseRequire.moduleRoot || __filename;
+
 var jitGruntReverse = require('./lib/jit-grunt-reverse');
 var path = require('path');
 
